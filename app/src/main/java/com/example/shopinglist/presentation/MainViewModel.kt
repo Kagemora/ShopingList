@@ -1,7 +1,5 @@
 package com.example.shopinglist.presentation
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.shopinglist.data.ShopListRepositoryImpl
 import com.example.shopinglist.domain.DeleteItemUseCase
