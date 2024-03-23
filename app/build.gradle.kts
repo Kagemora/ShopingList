@@ -42,7 +42,15 @@ android {
 dependencies {
     val room_version = "2.6.1"
 
+
+    implementation ("com.google.dagger:dagger-android:2.51")
+    implementation ("com.google.dagger:dagger-android-support:2.51")
+    kapt ("com.google.dagger:dagger-android-processor:2.51")
+    kapt ("com.google.dagger:dagger-compiler:2.51")
+
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
 
     implementation("androidx.room:room-runtime:$room_version")
     kapt("androidx.room:room-compiler:$room_version")

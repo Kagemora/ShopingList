@@ -1,4 +1,4 @@
-package com.example.shopinglist.domain
+package com.example.shopinglist.domain.entities
 
 data class ShopItem(
     val name:String,
@@ -7,7 +7,7 @@ data class ShopItem(
     var id: Int = UNDEFINED_ID //magic number
 ){
     companion object{
-        const val UNDEFINED_ID = -1
+        const val UNDEFINED_ID = 0
     }
 
 }

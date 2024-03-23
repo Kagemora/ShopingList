@@ -1,8 +1,8 @@
-package com.example.shopinglist.data
+package com.example.shopinglist.data.bd
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.shopinglist.domain.ShopItem
+
 @Entity(tableName = "shop_items")
 class ShopItemDbModel(
     @PrimaryKey(autoGenerate = true)

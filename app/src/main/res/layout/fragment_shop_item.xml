@@ -5,7 +5,7 @@
 
         <variable
             name="viewModel"
-            type="com.example.shopinglist.presentation.ShopItemViewModel"
+            type="com.example.shopinglist.presentation.viewmodel.ShopItemViewModel"
             />
     </data>
 
@@ -15,7 +15,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.ShopItemFragment"
+        tools:context=".presentation.view.ShopItemFragment"
         >
 
         <com.google.android.material.textfield.TextInputLayout

@@ -1,4 +1,4 @@
-package com.example.shopinglist.presentation
+package com.example.shopinglist.presentation.view
 
 import android.content.Context
 import android.os.Bundle
@@ -8,14 +8,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.shopinglist.R
 import com.example.shopinglist.databinding.FragmentShopItemBinding
-import com.example.shopinglist.domain.ShopItem
-import com.google.android.material.textfield.TextInputLayout
+import com.example.shopinglist.domain.entities.ShopItem
+import com.example.shopinglist.presentation.viewmodel.ShopItemViewModel
 
 class ShopItemFragment : Fragment() {
 

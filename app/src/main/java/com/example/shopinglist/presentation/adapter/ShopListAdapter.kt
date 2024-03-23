@@ -1,4 +1,4 @@
-package com.example.shopinglist.presentation
+package com.example.shopinglist.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import com.example.shopinglist.R
 import com.example.shopinglist.databinding.ItemShopDisabledBinding
 import com.example.shopinglist.databinding.ItemShopEnabledBinding
-import com.example.shopinglist.domain.ShopItem
+import com.example.shopinglist.domain.entities.ShopItem
 
 class ShopListAdapter : ListAdapter<ShopItem, ShopItemViewHolder>(
     ShopItemDiffCallback()
