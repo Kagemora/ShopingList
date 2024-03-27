@@ -1,4 +1,4 @@
-package com.example.shopinglist.presentation
+package com.example.shopinglist.presentation.adapter
 
 import androidx.databinding.BindingAdapter
 import com.example.shopinglist.R
